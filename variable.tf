@@ -1,0 +1,9 @@
+variable "location" {}
+variable "vm_name" {}
+variable "vm_size" {}
+variable "resource_group_name" {}
+variable "vnet_name" {}
+variable "storage_account_name" {}
+variable "subnet_name" {}
+variable "username" {}
+variable "password" {}
