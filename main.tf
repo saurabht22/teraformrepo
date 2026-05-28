@@ -22,7 +22,7 @@ resource "azurerm_network_interface" "nic" {
     resource_group_name = var.resource_group_name
     ip_configuration {
       name = "pvt_ip"
-      subnet_id = azurerm.subnet.subnet1_id
+      subnet_id = azurerm_subnet.subnet1.id
       private_ip_address_allocation = "Dynamic"
     }
 }
