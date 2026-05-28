@@ -1,5 +1,5 @@
 location = "Central India"
-resource_group_name = "compute-rg"
+resource_group_name = "computerg"
 vm_name = "prod-vm"
 vm_size = "Standard_B2s"
 vnet_name = "prod-vnet"
