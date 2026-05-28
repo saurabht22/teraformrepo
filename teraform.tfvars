@@ -1,4 +1,4 @@
-location = "central india"
+location = "Central India"
 resource_group_name = "compute-rg"
 vm_name = "prod-vm"
 vm_size = "Standard_B2s"
